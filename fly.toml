@@ -1,9 +1,11 @@
 # fly.toml app configuration file generated for hijack-rc on 2024-02-27T23:50:13-08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+# Staging
+# app = 'hijack-rc-remix-staging'
 #
 
-app = 'hijack-rc'
+app = 'hijack-rc-remix'
 primary_region = 'lax'
 kill_signal = 'SIGINT'
 kill_timeout = '5s'
